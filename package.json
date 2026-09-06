@@ -1,0 +1,19 @@
+{
+  "name": "ghz-multi-downloader",
+  "version": "2.0.1",
+  "description": "Multi-platform media downloader (YouTube, TikTok, Facebook, Instagram)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail",
+    "secret": "wrangler secret put RAPIDAPI_KEY"
+  },
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
