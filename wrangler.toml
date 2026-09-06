@@ -1,4 +1,3 @@
-# wrangler.toml
 name = 'ghz-multi-downloader'
 main = "index.js"
 compatibility_date = "2026-09-06"
